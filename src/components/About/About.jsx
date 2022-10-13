@@ -17,9 +17,11 @@ const About = () => {
                 <Info/>
 
                 <p className="about_description">
-                I am a newly graduated student based in Albania. I love to create and build simple and yet modern functional 
-                websites and applications that are unique to people's eyes. I'm always looking for ways to improve 
-                myself hoping someday i can give back and share my knowledge to everyone who is willing to learn.
+                Well, I'm Jora. I am from Tirana and i live here. I just finished my bachelor's in computer science. 
+                During these years, i learned the basics of programming at school and further expanded this knowledge myself. 
+                I specialize more in front-end development, where i can create and build various websites and applications. 
+                I like to challenge myself by trying new things and styles that are unique to other people, 
+                hoping someday i can give back and share my knowledge to everyone who is willing to learn.
                 </p>
 
                 <a download="" href={CV} className="button button--flex about_button">
