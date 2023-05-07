@@ -4,8 +4,7 @@
   "homepage": "https://JoraLika.github.io/jora_portfolio",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.7.0",
-    "node-sass": "^7.0.3",
+    "@emailjs/browser": "^3.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
@@ -37,6 +36,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^5.0.0",
+    "node-sass": "^8.0.0",
+    "sass": "^1.62.1"
   }
 }
