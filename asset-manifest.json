@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jora_portfolio/static/css/main.661124bb.css",
-    "main.js": "/jora_portfolio/static/js/main.b62ced2a.js",
+    "main.js": "/jora_portfolio/static/js/main.85107191.js",
     "static/media/jora-cv.pdf": "/jora_portfolio/static/media/jora-cv.4b122eeeae0d45d3e758.pdf",
     "static/media/photo-3.png": "/jora_portfolio/static/media/photo-3.c994444a9e1370a6674f.png",
     "static/media/photo-4.jpg": "/jora_portfolio/static/media/photo-4.ce30b8249b4f48b6a557.jpg",
@@ -10,10 +10,10 @@
     "static/media/photo-5.jpg": "/jora_portfolio/static/media/photo-5.12e71bb3e20622264436.jpg",
     "index.html": "/jora_portfolio/index.html",
     "main.661124bb.css.map": "/jora_portfolio/static/css/main.661124bb.css.map",
-    "main.b62ced2a.js.map": "/jora_portfolio/static/js/main.b62ced2a.js.map"
+    "main.85107191.js.map": "/jora_portfolio/static/js/main.85107191.js.map"
   },
   "entrypoints": [
     "static/css/main.661124bb.css",
-    "static/js/main.b62ced2a.js"
+    "static/js/main.85107191.js"
   ]
 }
