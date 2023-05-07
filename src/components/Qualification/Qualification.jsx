@@ -68,10 +68,10 @@ const Qualifications = () => {
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">
-                  React Js Intern
+                  Front End Developer Intern
                 </h3>
                 <span className="qualification_subtitle">
-                  Tirane - Akademi.al
+                  Tirane - Pragmatic Software shpk
                 </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>
@@ -95,14 +95,14 @@ const Qualifications = () => {
 
               <div>
                 <h3 className="qualification_title">
-                  Front End Developer Intern
+                  Front End Developer
                 </h3>
                 <span className="qualification_subtitle">
-                  Tirane - Pragmatic Software
+                  Tirane - Kreatx
                 </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  July 2021 - November 2021
+                    November 2022 - May 2023
                 </div>
               </div>
             </div>
