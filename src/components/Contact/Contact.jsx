@@ -1,21 +1,36 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.scss';
 
 const Contact = () => {
   const form = useRef();
+  const [formValues, setFormValues] = useState({
+    name: '',    
+    email: '',
+    project: '',
+  });
+
+  const isFormValid = Object.values(formValues).every(value => Boolean(value));
+
+  const handleChange = e => {  
+    setFormValues(prevFormData => ({
+      ...prevFormData,
+      [e.target.name]: e.target.value
+    }));
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm(
+     
+      emailjs.sendForm(
       'service_1k3tn9g', 
       'template_rb3auz8', 
       form.current, 
       '7-WynoRKKMj1-smZ7'
-      )
-      
-    e.target.reset()
+      );
+
+      e.target.reset();
+ 
   };
 
   return (
@@ -63,6 +78,8 @@ const Contact = () => {
               <input 
                 type="text" 
                 name='name' 
+                value={formValues.name}
+                onChange={handleChange}
                 className='contact_form-input' 
                 placeholder='Insert your name'
               />
@@ -73,6 +90,8 @@ const Contact = () => {
               <input 
                 type="email" 
                 name='email' 
+                value={formValues.email}
+                onChange={handleChange}
                 className='contact_form-input' 
                 placeholder='Insert your email'
               />
@@ -84,13 +103,15 @@ const Contact = () => {
                 name="project" 
                 className='contact_form-input'
                 cols="30" 
-                rows="10" 
+                rows="10"
+                value={formValues.project}
+                onChange={handleChange}
                 placeholder='Write your project'>
               </textarea>
             </div>
 
-            <button href="#contact" className="button button--flex">
-                Send Message <i class="bx bx-send contact_data-icon"></i>
+            <button href="#contact" className="button button--flex" disabled={!isFormValid}>
+                Send Message <i className="bx bx-send contact_data-icon"></i>
             </button>
           </form>
         </div>
