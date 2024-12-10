@@ -106,6 +106,26 @@ const Qualifications = () => {
                 </div>
               </div>
             </div>
+
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title">
+                    Software Developer
+                </h3>
+                <span className="qualification_subtitle">
+                    Tirane - ccube.ai
+                </span>
+                <div className="qualification_calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                    August 2023 -  Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
